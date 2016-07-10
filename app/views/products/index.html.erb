@@ -14,7 +14,7 @@
 
   <tbody>
     <% @products.each do |product| %>
-      <tr>
+      <tr class="products">
         <td><%= product.name %></td>
         <td><%= product.description %></td>
         <td><%= product.price %></td>
@@ -28,5 +28,4 @@
 
 <br>
 
-<!-- # <%= link_to 'New Product', new_product_path %>
- -->
+ <%= link_to 'payment', new_payment_path %>
