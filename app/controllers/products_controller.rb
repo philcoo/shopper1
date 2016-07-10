@@ -12,6 +12,10 @@ class ProductsController < ApplicationController
   def show
   end
 
+  def beverages
+    @beverages = Product.where(description: "Beverages")
+  end
+
   # GET /products/new
   def new
     @product = Product.new

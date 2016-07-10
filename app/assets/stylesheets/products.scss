@@ -1,7 +1,72 @@
 // Place all the styles related to the Products controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-h1{
-	background:gray;
+
+// h1{
+// 	background:gray;
+// }
+
+html {
+background: url("https://tctechcrunch2011.files.wordpress.com/2015/03/groceries.jpg") no-repeat fixed;
+background-size: cover;
+/*border: solid rgba(255, 255, 255, .8) 1em;*/
+margin: .5em;
 }
 
+.products {
+  position:fixed;
+  padding: .7em;
+  background: rgba(255, 255, 255, .7);
+  color: green;
+  top:0;
+  left:0;
+  width:100%;
+  text-align: center;
+  font-size: 3em;
+}
+
+.container {
+  margin: 18em 0 15em 0;
+	height: 20em;
+}
+
+.column1, .column2, .column3 {
+  background: rgba(255, 255, 255, .7);
+  float: left;
+  width: 30%;
+  margin: 1%;
+  margin-top: 3em;
+  text-align: center;
+}
+
+.button1a, .button1b, .button2a, .button2b, .button3a, .button3b, .zbutton {
+  align: center;
+  color: white;
+  background: green;
+  font-size: 1.7em;
+  margin: 1em;
+  align: center;
+}
+
+// .container2 {
+// 	margin-top: 10em;
+// 	border: solid white;
+// 	text-align: center;
+// }
+// .filler {
+//   text-align: center;
+// 	color: white;
+// 	border: black solid;
+// 	// position: absolute;
+// 	margin-top: 20em;
+// }
+
+.end {
+  text-align: center;
+  background: rgba(255, 255, 255, .7);
+  position: relative;
+  clear:both;
+	bottom:0;
+	left: 0;
+  width: 100%;
+}
