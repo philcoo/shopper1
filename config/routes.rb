@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
 
-  resources :payment	
+  resources :payment
+ 	
   resources :products
   root 'home#index'
+  get 'frozen' => 'products#frozen'
+
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

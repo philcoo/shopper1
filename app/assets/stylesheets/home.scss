@@ -1,3 +1,46 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+background: url("https://tctechcrunch2011.files.wordpress.com/2015/03/groceries.jpg") no-repeat fixed;
+background-size: cover;
+margin: .5em;
+}
+
+.welcome {
+  margin: 3em;
+  height: 25em;
+  padding: 2em;
+  border: double 3em rgba(255, 255, 255, .6);
+  color: green;
+  background: rgba(255, 255, 255, .7);
+  text-align: center;
+}
+
+line1 {
+  font-size: 100x;
+  font-family: cursive;
+}
+
+.line2 {
+  font-size: 250%;
+  font-family: serif;
+  color: white;
+}
+
+.line3 {
+  font-size: 200%;
+  font-family: serif;
+}
+
+.shop {
+  color: white;
+  background: green;
+  width: 10em;
+  font-size: 150%;
+  font-family: serif;
+  align: center;
+  padding: .2em;
+}
+
+.button {
+  margin: 4em;
+}
