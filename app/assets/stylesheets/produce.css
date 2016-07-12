@@ -1,0 +1,46 @@
+div.img1 {
+    margin: 50px;
+    border: 1px  #ccc;
+    float: left;
+    width: 170px;
+    
+}
+
+div.img1 {
+    border: 1px  #777;
+}
+
+div.img1 img {
+    width: 100%;
+    height: auto;
+}
+
+div.des {
+    padding: 20px;
+    text-align: center;
+    text-align: 160px;
+    color:white;
+    font-size: 20px;
+
+}
+
+div.img2 {
+    margin: 50px;
+    float: left;
+    width: 170px;
+    
+}
+
+div.img2 img {
+    width: 100%;
+    height: auto;
+}
+
+div.des2 {
+    padding: 20px;
+    text-align: center;
+    text-align: 160px;
+    color:white;
+    font-size: 20px;
+
+}
