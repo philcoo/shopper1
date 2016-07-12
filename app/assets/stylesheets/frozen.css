@@ -1,8 +1,13 @@
+
+
+}
+
+
 .checkout{
-	border: solid;
 	font-size: 30px;
 	margin-right: 1660px;
 	margin-left: 10px;
+	background: url(slide.jpg);
 
 
 }
@@ -11,6 +16,54 @@
 	flex-direction: column;
 	font-size:20px;
 	color: blue;
-	background: white;
+	
 
+}
+h1{
+	text-align: center;
+	color:orange;
+	text-shadow: green 2px;
+	font-size:70px;
+}
+
+.card{
+	font-size: 15px;
+}
+.checkout{
+	position: absolute;
+	bottom: 5px;
+
+}
+div.img {
+    margin: 45px;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 20px;
+    text-align: center;
+    text-align: 125px;
+    color: white;
+    font-size: 20px;
+
+}
+.sidebar{
+	border: solid;
+	margin-top: 40px;
+	margin-left: 1650px;
+	padding-left: 12px;
+	color: white;
+	background-color: white;
+	text-decoration: none;
+	font-size: 100px;	
 }

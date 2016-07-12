@@ -9,14 +9,35 @@ h1{
  	background:gray;
  }
 
-html {
-background: url("https://tctechcrunch2011.files.wordpress.com/2015/03/groceries.jpg") no-repeat fixed;
+.products.index {
+background: url("http://carvibio.it/wp-content/uploads/2014/10/fresh-vegetables.jpg") no-repeat fixed;
 background-size: cover;
 /*border: solid rgba(255, 255, 255, .8) 1em;*/
 margin: .5em;
 }
+.frozen {
+background: url("https://images.unsplash.com/photo-1447354952986-1529000d777c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=4e7568a8119db43c2c188d4a08d0bf65") no-repeat fixed;
+background-size: cover;
+/*border: solid rgba(255, 255, 255, .8) 1em;*/
+margin: .5em;
+}
+.produce{
+  background: url("http://static.communitytable.parade.com/wp-content/uploads/2014/07/farm-gift-cards-ftr.jpg") no-repeat fixed;
+background-size: cover;
+/*border: solid rgba(255, 255, 255, .8) 1em;*/
+margin: .5em;
+  
+}
+.trans{
+  background: url("https://images.unsplash.com/photo-1466725574919-8f40de97af6d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=f6a20b82abe77d3ff1f4678bd78058d2") no-repeat fixed;
+  background-size: cover;
+/*border: solid rgba(255, 255, 255, .8) 1em;*/
+margin: .5em;
 
-.products {
+}
+
+
+.product {
   position:fixed;
   padding: .7em;
   background: rgba(255, 255, 255, .7);
@@ -26,6 +47,13 @@ margin: .5em;
   width:100%;
   text-align: center;
   font-size: 3em;
+}
+.new{
+  background: url("https://images.unsplash.com/photo-1465101046530-73398c7f28ca?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=de25fe924f38b92a94afa24f6d771f4f") no-repeat fixed;
+  background-size: cover;
+/*border: solid rgba(255, 255, 255, .8) 1em;*/
+margin: .5em;
+
 }
 
 .container {
@@ -73,4 +101,3 @@ margin: .5em;
 	left: 0;
   width: 100%;
 }
-

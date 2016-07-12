@@ -1,6 +1,6 @@
 class PaymentController < ApplicationController
 	 def new
-    @amount = 456789
+    @amount = 3500
   end
 
   def create
