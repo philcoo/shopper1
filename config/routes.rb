@@ -2,10 +2,13 @@ Rails.application.routes.draw do
   root 'home#index'
 
   resources :payment
+  get 'payment' => 'payment#index'
+
+
   resources :products
 
   get 'beverages' => 'products#beverages'
-  get 'frozen foods' => 'products#frozen foods'
+  get 'frozen_foods' => 'products#frozen_foods'
   get 'produce' => 'products#produce'
   get 'refrigerated foods' => 'products#refrigerated foods'
   get 'bakery/breakfast/cereal' => 'products#bakery/breakfast/cereal'

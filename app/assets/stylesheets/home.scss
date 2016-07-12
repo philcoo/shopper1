@@ -9,46 +9,37 @@ margin: .5em;
 }
 
 .welcome {
-  margin: 1em;
+  margin: 2em;
   margin-top: 2em;
-  // margin-bottom: .6em;
-  height: 33em;
+  height: 50em;
   padding: 2em;
-  border: double 4em rgba(255, 255, 255, .6);
-  color: green;
-  background: rgba(255, 255, 255, .7);
+  background: url("http://sweetly.weebly.com/uploads/6/7/9/5/6795120/5599291_orig.png?496") no-repeat center ;
+  // background: rgba(255, 255, 255, .7);
   text-align: center;
 }
 
 .line1 {
-  font-size: 900%;
+  font-size: 1000%;
   font-family: cursive;
   margin-top: .8em;
+  color: green;
 }
 
 .line2 {
   font-size: 400%;
   font-family: serif;
-  color: white;
+  color: black;
   margin-top: 3em;
 }
 
 .line3 {
-  font-size: 350%;
+  font-size: 450%;
   font-family: serif;
+  color: darkred;
   margin-top: 2em;
 }
 
-.shop {
-  color: white;
-  background: green;
-  width: 10em;
-  font-size: 150%;
-  font-family: serif;
-  align: center;
-  padding: .2em;
-}
-
 .button {
-  margin: 4em;
+  // margin: 5em;
+  text-align: center;
 }

@@ -6,6 +6,7 @@
 // 	background:gray;
 // }
 
+
 html {
 background: url("https://tctechcrunch2011.files.wordpress.com/2015/03/groceries.jpg") no-repeat fixed;
 background-size: cover;
@@ -16,57 +17,56 @@ margin: .5em;
 .products {
   position:fixed;
   padding: .7em;
-  background: rgba(255, 255, 255, .7);
+  background: white;
   color: green;
   top:0;
   left:0;
   width:100%;
   text-align: center;
-  font-size: 3em;
+  font-size: 4em;
 }
 
 .container {
+  background: rgba(255, 255, 255, .8);
   margin: 18em 0 15em 0;
-	height: 20em;
+	height: 100%;
+  width: 100%;
+  padding-bottom: 2em;
+  // background: white;
 }
 
-.column1, .column2, .column3 {
-  background: rgba(255, 255, 255, .7);
+.column1 {
+  // background: rgba(255, 255, 255, .7);
   float: left;
-  width: 30%;
+  width: 45%;
   margin: 1%;
   margin-top: 3em;
   text-align: center;
+  padding-top: 1em;
 }
 
-.button1a, .button1b, .button2a, .button2b, .button3a, .button3b, .zbutton {
+.column3 {
+  // background: rgba(255, 255, 255, .7);
+  float: right;
+  width: 45%;
+  margin: 1%;
+  margin-top: 3em;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.button1a, .button1b, .button2a, .button2b, .button3a, .button3b, {
   align: center;
-  color: white;
-  background: green;
-  font-size: 1.7em;
   margin: 1em;
   align: center;
 }
 
-// .container2 {
-// 	margin-top: 10em;
-// 	border: solid white;
-// 	text-align: center;
-// }
-// .filler {
-//   text-align: center;
-// 	color: white;
-// 	border: black solid;
-// 	// position: absolute;
-// 	margin-top: 20em;
-// }
-
 .end {
   text-align: center;
-  background: rgba(255, 255, 255, .7);
-  position: relative;
+  position: absolute;;
   clear:both;
 	bottom:0;
 	left: 0;
   width: 100%;
+  margin-bottom: 2em;
 }

@@ -16,6 +16,14 @@ class ProductsController < ApplicationController
     @beverages = Product.where(description: "Beverages")
   end
 
+  def frozen_foods
+    @frozen_foods = Product.where(description: "Frozen Foods")
+  end
+
+  def produce
+    @produce = Product.where(description: "Produce")
+  end
+
   # GET /products/new
   def new
     @product = Product.new
