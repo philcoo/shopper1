@@ -1,3 +1,58 @@
 // Place all the styles related to the payment controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.payment.index {
+  background: url("http://visitsteamboat.com/wp-content/uploads/2015/07/GroceryDelivery.jpg") fixed center no-repeat;
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  width: 100wh;
+}
+
+.thanks {
+  font-size: 7em;
+  text-align: center;
+  color: white;
+  font-family: cursive;
+  padding: .8em;
+  background: rgba(0, 95, 44, 0.7);
+}
+
+.order {
+  font-size: 2em;
+  text-align: center;
+  color: black;
+}
+
+.details {
+  font-size: 1.6em;
+  text-align: center;
+  color: black;
+  font-family: serif;
+}
+
+.bye {
+  font-size: 2em;
+  text-align: center;
+  color: black;
+}
+
+.end {
+  text-align: center;
+  position: relative;
+  clear:both;
+  bottom:0;
+  left: 0;
+  width: 100%;
+}
+
+.zbutton {
+  align: center;
+  color: white;
+  background: green;
+  font-size: 1.7em;
+  margin: 1em;
+  align: center;
+}
